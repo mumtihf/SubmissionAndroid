@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="@color/purple_700">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="371dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ellipsize="none"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="@string/product_name"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_item_price"
+            android:layout_width="333dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:ellipsize="none"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="@string/price"
+            android:textColor="@color/purple_500"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/product_info"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/product_description"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/product_description"
+            android:textColor="@color/purple_500"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

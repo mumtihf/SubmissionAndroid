@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="product_name">Nama Produk</string>
+    <string name="price">Harga</string>
+    <string name="profile">Profile</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="nama">Mumti Hany Farisa</string>
+    <string name="email">mumtihany@gmail.com</string>
+    <string name="likes">Likes</string>
+    <string name="product_info">Info Produk</string>
+    <string name="product_description">Deskripsi</string>
+    <string name="product_ingredients">Product Ingredients</string>
+    <string name="ingredients">Ingredients</string>
+</resources>
